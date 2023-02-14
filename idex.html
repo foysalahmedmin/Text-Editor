@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/4206d5dcf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Editor</h1>
+        <div class="monitor">
+            <div class="functionality">
+                <ul class="text-decorations">
+                    <li><Button id="bold"><i class="fa-solid fa-bold"></i></Button></li>
+                    <li><Button id="italic"><i class="fa-solid fa-italic"></i></Button></li>
+                    <li><Button id="underline"><i class="fa-solid fa-underline"></i></Button></li>
+                </ul>
+
+                <ul class="text-alignment">
+                    <li><Button id="left"><i class="fa-solid fa-align-left"></i></Button></li>
+                    <li><Button id="center"><i class="fa-solid fa-align-center"></i></Button></li>
+                    <li><Button id="right"><i class="fa-solid fa-align-right"></i></Button></li>
+                    <li><Button id="justify"><i class="fa-solid fa-align-justify"></i></Button></li>
+                </ul>
+
+                <ul class="text-styles">
+                    <li><input type="number" name="" id="number" value="16"></li>
+                    <li><Button id="case">aA</Button></li>
+                    <li><input type="color" name="" id="color"></li>
+                </ul>
+            </div>
+            <div class="texts">
+                <textarea id="textarea" placeholder="Wright here"></textarea>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/custom.js"></script>
+</body>
+</html>
